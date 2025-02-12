@@ -1,0 +1,1061 @@
+[
+    {
+      "title": "The Man Who Mistook His Wife for a Hat",
+      "personality": ["bold"],
+      "category": 1,
+      "relationship_type": "practical",
+      "interest": "Books",
+      "keywords": ["bold", "practical"]
+    },
+    {
+      "title": "A Little Life",
+      "personality": ["bold", "artistic", "soft&feminine"],
+      "category": 1,
+      "relationship_type": "sentimental",
+      "interest": "Books",
+      "keywords": ["bold", "artistic", "soft&feminine", "sentimental"]
+    },
+    {
+      "title": "Intermezzo",
+      "personality": ["bold", "artistic", "soft&feminine"],
+      "category": 1,
+      "relationship_type": "sentimental",
+      "interest": "Books",
+      "keywords": ["bold", "artistic", "soft&feminine", "sentimental"]
+    },
+    {
+      "title": "Circe by Madeline Miller",
+      "personality": ["bold", "artistic", "soft&feminine", "adventure", "simple"],
+      "category": 1,
+      "relationship_type": "extravagant",
+      "interest": "Books",
+      "keywords": ["bold", "artistic", "soft&feminine", "adventure", "simple", "extravagant"]
+    },
+    {
+      "title": "People We Meet on Vacation",
+      "personality": ["quirky", "simple", "soft&feminine", "vibrant", "funny"],
+      "category": 1,
+      "relationship_type": "low-key",
+      "interest": "Books",
+      "keywords": ["quirky", "simple", "soft&feminine", "vibrant", "adventure", "funny", "low-key"]
+    },
+    {
+      "title": "Bunny by Mona Awad",
+      "personality": ["quirky", "artistic", "adventure", "soft&feminine", "vibrant"],
+      "category": 1,
+      "relationship_type": "extravagant",
+      "interest": "Books",
+      "keywords": ["quirky", "artistic", "adventure", "soft&feminine", "vibrant", "extravagant", "low-key"]
+    },
+    {
+      "title": "We All Want Impossible Things by Catherine Newman",
+      "personality": ["quirky", "simple", "artistic", "bold", "soft&feminine", "vibrant", "funny"],
+      "category": 1,
+      "relationship_type": "low-key",
+      "interest": "Books",
+      "keywords": ["quirky", "simple", "artistic", "bold", "soft&feminine", "vibrant", "funny", "low-key"]
+    },
+    {
+      "title": "The God of Small Things",
+      "personality": ["quirky", "artistic", "bold", "soft&feminine", "vibrant", "funny", "adventure"],
+      "category": 1,
+      "relationship_type": "extravagant",
+      "interest": "Books",
+      "keywords": ["quirky", "artistic", "bold", "soft&feminine", "vibrant", "funny", "adventure", "extravagant"]
+    },
+    {
+      "title": "Everything I Know About Love",
+      "personality": ["quirky", "simple", "bold", "soft&feminine", "vibrant", "funny"],
+      "category": 1,
+      "relationship_type": "sentimental",
+      "interest": "Books",
+      "keywords": ["quirky", "simple", "bold", "soft&feminine", "vibrant", "funny",  "sentimental"]
+    },
+    {
+      "title": "Radio Silence by Alice Oseman",
+      "personality": ["quirky", "simple", "bold", "soft&feminine", "vibrant"],
+      "category": 1,
+      "relationship_type": "low-key",
+      "interest": "Books",
+      "keywords": ["quirky", "simple", "bold", "soft&feminine", "vibrant", "low-key"]
+    },
+    {
+      "title": "The Woman Destroyed",
+      "personality": ["quirky", "funny"],
+      "category": [2,3,4,5],
+      "relationship_type": "sentimental",
+      "interest": "Books",
+      "keywords": ["quirky", "funny","sentimental"]
+    },
+    {
+      "title": "A Bad Day for Sunshine",
+      "personality": ["quirky", "funny", "adventure"],
+      "category": [2,3,4,5],
+      "relationship_type": "low-key",
+      "interest": "Books",
+      "keywords": ["quirky", "funny", "adventure",  "low-key"]
+    },
+    {
+      "title": "The Invisible Life of Addie LaRue",
+      "personality": ["bold", "artistic", "soft&feminine", "adventure"],
+      "category": [2,3,4,5],
+      "relationship_type": "extravagant",
+      "interest": "Books",
+      "keywords": ["bold", "artistic", "soft&feminine", "adventure", "extravagant"]
+    },
+    {
+      "title": "Simple Passion by Annie Ernaux",
+      "personality": ["bold", "artistic", "soft&feminine"],
+      "category": [2,3,4,5],
+      "relationship_type": "sentimental",
+      "interest": "Books",
+      "keywords": ["bold", "artistic", "soft&feminine","sentimental"]
+    },
+    {
+      "title": "Good Material",
+      "personality": ["quirky", "simple", "bold", "soft&feminine", "vibrant", "funny"],
+      "category": [2,3,4,5],
+      "relationship_type": "practical",
+      "interest": "Books",
+      "keywords": ["quirky", "simple", "bold", "soft&feminine", "vibrant", "funny", "practical"]
+    },
+  
+  
+    {
+      "title": "A CD of 'These Remind Me of You'",
+      "personality": ["artistic", "soft&feminine"],
+      "category": 1,
+      "relationship_type": "sentimental",
+      "interest": "Music",
+      "keywords": ["artistic", "soft&feminine", "sentimental"]
+    },
+    {
+      "title": "A Vinyl Record from a Record Store",
+      "personality": ["bold", "artistic", "vibrant"],
+      "category": 4,
+      "relationship_type": "extravagant",
+      "interest": "Music",
+      "keywords": ["bold", "artistic", "vibrant", "extravagant"]
+    },
+    {
+      "title": "A Vinyl Player",
+      "personality": ["artistic", "bold", "vibrant", "quirky"],
+      "category": 5,
+      "relationship_type": "extravagant",
+      "interest": "Music",
+      "keywords": ["artistic", "bold", "vibrant", "quirky", "extravagant"]
+    },
+    {
+      "title": "Their Favorite Band T-shirt from H&M",
+      "personality": ["bold", "vibrant", "quirky"],
+      "category": 3,
+      "relationship_type": "sentimental",
+      "interest": "Music",
+      "keywords": ["bold", "vibrant", "quirky", "sentimental"]
+    },
+    {
+      "title": "A Cig Box with Favorite Album Songs Written on Each Cigarette",
+      "personality": ["quirky", "funny", "artistic"],
+      "category": 1,
+      "relationship_type": "sentimental",
+      "interest": "Music",
+      "keywords": ["quirky", "funny", "artistic", "sentimental"]
+    },
+    {
+      "title": "Apple Earphones (Wired)",
+      "personality": ["simple"],
+      "category": 3,
+      "relationship_type": "practical",
+      "interest": "Music",
+      "keywords": ["simple", "practical"]
+    },
+    {
+      "title": "A Customized Guitar Pick",
+      "personality": ["artistic", "simple"],
+      "category": 2,
+      "relationship_type": "sentimental",
+      "interest": "Music",
+      "keywords": ["artistic", "simple", "sentimental", "low-key"]
+    },
+    {
+      "title": "A Vintage Poster from Chor Bazaar",
+      "personality": ["artistic", "bold", "quirky"],
+      "category": 1,
+      "relationship_type": "sentimental",
+      "interest": "Music",
+      "keywords": ["artistic", "bold", "quirky", "sentimental"]
+    },
+    {
+      "title": "Concert Tickets",
+      "personality": ["bold", "adventurous", "vibrant"],
+      "category": 4,
+      "relationship_type": "extravagant",
+      "interest": "Music",
+      "keywords": ["bold", "adventurous", "vibrant", "extravagant", "sentimental"]
+    },
+    {
+      "title": "Rockstar Belts",
+      "personality": ["quirky", "bold", "artistic"],
+      "category": 4,
+      "relationship_type": ["extravagant"],
+      "interest": "Music",
+      "keywords": ["quirky", "bold", "artistic","extravagant"]
+    },
+    {
+      "title": "Leather Jacket",
+      "personality": ["bold", "artistic"],
+      "category": 4,
+      "relationship_type": "extravagant",
+      "interest": "Music",
+      "keywords": ["bold", "artistic", "extravagant"]
+    },
+    {
+      "title": "Customized Socks with Their Favorite Artist",
+      "personality": ["quirky", "funny", "vibrant"],
+      "category": 2,
+      "relationship_type": "sentimental",
+      "interest": "Music",
+      "keywords": ["quirky", "funny", "vibrant", "sentimental"]
+    },
+    {
+      "title": "A Guitar Holder for Their Wall",
+      "personality": ["simple", "artistic", "quirky"],
+      "category": 2,
+      "relationship_type": "practical",
+      "interest": "Music",
+      "keywords": ["simple", "artistic", "quirky", "practical"]
+    },
+    {
+      "title": "A Vinyl-Inspired Clock",
+      "personality": ["artistic", "vibrant", "quirky"],
+      "category": 4,
+      "relationship_type": "extravagant",
+      "interest": "Music",
+      "keywords": ["artistic", "vibrant", "quirky", "extravagant"]
+    },
+    {
+      "title": "Music-Inspired Wall Hooks",
+      "personality": ["quirky", "simple", "artistic"],
+      "category": 2,
+      "relationship_type": "practical",
+      "interest": "Music",
+      "keywords": ["quirky", "simple", "artistic", "practical"]
+    },
+    {
+      "title": "A Date Night Watching Their Favorite Concert with Their Favorite Food",
+      "personality": ["simple", "soft&feminine"],
+      "category": 1,
+      "relationship_type": "sentimental",
+      "interest": "Music",
+      "keywords": ["simple", "soft&feminine", "sentimental", "low-key"]
+    },
+    {
+      "title": "Write a Song for Them and Sing It",
+      "personality": ["simple", "soft&feminine", "quirky"],
+      "category": 1,
+      "relationship_type": "sentimental",
+      "interest": "Music",
+      "keywords": ["simple", "soft&feminine", "quirky", "sentimental", "low-key", "funny"]
+    },
+    {
+      "title": "A Leather Journal for Writing Songs",
+      "personality": ["simple", "soft&feminine", "artistic"],
+      "category": 3,
+      "relationship_type": "practical",
+      "interest": "Music",
+      "keywords": ["simple", "soft&feminine", "artistic", "sentimental", "practical", "low-key"]
+    },
+    {
+      "title": "Buying 'Just Kids' by Patti Smith for Them",
+      "personality": ["simple", "artistic", "soft&feminine"],
+      "category": 2,
+      "relationship_type": "sentimental",
+      "interest": "Music",
+      "keywords": ["simple", "artistic", "soft&feminine", "sentimental", "low-key"]
+    },
+    {
+      "title": "A Karaoke Microphone with Built-In Speaker",
+      "personality": ["vibrant", "quirky", "funny" ],
+      "category": 4,
+      "relationship_type": ["extravagant", "sentimental"],
+      "interest": "Music",
+      "keywords": ["vibrant", "quirky","funny","extravagant", "sentimental"]
+    },
+    {
+      "title": "Mini Boat Bluetooth Speaker",
+      "personality": ["bold", "simple", "adventurous"],
+      "category": 2,
+      "interest": "Music",
+      "relationshipType": ["low-key", "practical"],
+      "keywords": ["bold", "simple", "adventurous","low-key", "practical"]
+    },
+    {
+      "title": "Take Them to a Gig",
+      "personality": ["adventurous", "bold"],
+      "category": 3,
+      "relationship_type": "extravagant",
+      "interest": "Music",
+      "keywords": ["adventurous", "bold", "extravagant", "sentimental"]
+    },
+    {
+      "title": "A Sports Cap",
+      "personality": ["quirky", "simple", "adventurous", "bold"],
+      "category": 2,
+      "relationship_type": ["practical", "low-key"],
+      "interest": "Fashion and Styling",
+      "keywords": ["quirky", "simple", "adventurous","bold","practical", "low-key"]
+    },
+    {
+      "title": "Reusable Cotton Tote Bag (Quirky Design)",
+      "personality":["adventurous","quirky","soft&feminine", "vibrant","simple"],
+      "category": 1,
+      "relationshipType": ["practical","low-key"],
+      "interest": "Fashion and Styling",
+      "keywords": ["adventurous","quirky","soft&feminine", "vibrant", "simple", "practical","low-key"]
+    },
+    {
+      "title": "Travel-Friendly Makeup Organizer",
+      "personality":["adventurous", "soft&feminine", "vibrant", "simple", "bold"],
+      "category": 1,
+      "relationshipType": ["practical","low-key","sentimental"],
+      "interest": "Fashion and Styling",
+      "keywords": ["adventurous", "soft&feminine", "vibrant", "simple", "bold","practical","low-key","sentimental"]
+    },
+    {
+      "title": "Adidas Originals Shorts",
+      "personality": ["bold", "adventurous", "simple", "bold"],
+      "category": 4,
+      "relationship_type": ["extravagant", "practical"],
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "adventurous", "simple", "bold","extravagant", "practical"]
+    },
+    {
+      "title": "Knee-Length Boots",
+      "personality": ["bold", "artistic"],
+      "category": 5,
+      "relationship_type": "extravagant",
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "artistic", "extravagant"]
+    },
+    {
+      "title": "Jorts",
+      "personality": ["quirky", "simple"],
+      "category": 2,
+      "relationship_type": "low-key",
+      "interest": "Fashion and Styling",
+      "keywords": ["quirky", "simple", "low-key"]
+    },
+    {
+      "title": "A Vintage Belt",
+      "personality": ["artistic", "bold", "quirky"],
+      "category": 3,
+      "relationship_type": "sentimental",
+      "interest": "Fashion and Styling",
+      "keywords": ["artistic", "bold","quirky", "sentimental"]
+    },
+    {
+      "title": "A Black Dress",
+      "personality": ["bold", "soft&feminine"],
+      "category": 4,
+      "relationship_type": "extravagant",
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "soft&feminine", "extravagant"]
+    },
+    {
+      "title": "Long Summer Skirt",
+      "personality": ["soft&feminine", "artistic"],
+      "category": 3,
+      "relationship_type": ["sentimental","low-key"],
+      "interest": "Fashion and Styling",
+      "keywords": ["soft&feminine", "artistic", "sentimental", "low-key"]
+    },
+    {
+      "title": "Socks from SOY",
+      "personality": ["quirky", "funny"],
+      "category": 1,
+      "relationship_type": "low-key",
+      "interest": "Fashion and Styling",
+      "keywords": ["quirky", "funny", "low-key"]
+    },
+    {
+      "title": "A Football Jersey of Your Favorite Football Club",
+      "personality": ["adventurous", "bold"],
+      "category": 3,
+      "relationship_type": "sentimental",
+      "interest": "Fashion and Styling",
+      "keywords": ["adventurous", "bold", "sentimental"]
+    },
+    {
+      "title": "A Quirky Tie",
+      "personality": ["quirky", "artistic"],
+      "category": 2,
+      "relationship_type": ["low-key","sentimental"],
+      "interest": "Fashion and Styling",
+      "keywords": ["quirky", "artistic", "low-key"]
+    },
+    {
+      "title": "A Baggy Denim Jacket",
+      "personality": ["bold", "quirky"],
+      "category": 3,
+      "relationship_type": "sentimental",
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "quirky", "sentimental"]
+    },
+    {
+      "title": "A Crossbody Bag",
+      "personality": ["simple", "bold"],
+      "category": 2,
+      "relationship_type": ["low-key","practical"],
+      "interest": "Fashion and Styling",
+      "keywords": ["simple", "practical", "low-key", "bold", "practical"]
+    },
+    {
+      "title": "A Leather Jacket",
+      "personality": ["bold", "artistic"],
+      "category": 5,
+      "relationship_type": "extravagant",
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "artistic", "extravagant"]
+    },
+    {
+      "title": "A Pleated Korean Skirt",
+      "personality": ["soft&feminine", "artistic"],
+      "category": 3,
+      "relationship_type": "sentimental",
+      "interest": "Fashion and Styling",
+      "keywords": ["soft&feminine", "artistic", "sentimental"]
+    },
+    {
+      "title": "A Bandana",
+      "personality": ["quirky", "adventurous", "vibrant"],
+      "category": 1,
+      "relationship_type": "low-key",
+      "interest": "Fashion and Styling",
+      "keywords": ["quirky", "adventurous","vibrant", "low-key"]
+    },
+    {
+      "title": "A Lacey Top",
+      "personality": ["soft&feminine", "artistic"],
+      "category": 2,
+      "relationship_type": "sentimental",
+      "interest": "Fashion and Styling",
+      "keywords": ["soft&feminine", "artistic", "sentimental"]
+    },
+    {
+      "title": "A Red Dress",
+      "personality": ["bold", "soft&feminine"],
+      "category": 4,
+      "relationship_type": "extravagant",
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "soft&feminine", "extravagant"]
+    },
+    {
+      "title": "A Short Kurti",
+      "personality": ["simple", "soft&feminine", "artistic", "vibrant"],
+      "category": 2,
+      "relationship_type": ["practical", "low-key", "sentimental"],
+      "interest": "Fashion and Styling",
+      "keywords": ["simple","artistic", "vibrant", "soft&feminine", "practical", "low-key", "sentimental"]
+    },
+    {
+      "title": "Jhumkas",
+      "personality": ["soft&feminine", "artistic"],
+      "category": 3,
+      "relationship_type": "sentimental",
+      "interest": "Fashion and Styling",
+      "keywords": ["soft&feminine", "artistic", "sentimental"]
+    },
+    {
+      "title": "A Leather Shoulder Bag",
+      "personality": ["bold", "practical"],
+      "category": 4,
+      "relationship_type": "extravagant",
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "practical", "extravagant"]
+    },
+    {
+      "title": "A Full Set of Concert Outfit",
+      "personality": ["bold", "artistic", "quirky", "vibrant"],
+      "category": 5,
+      "relationship_type": "extravagant",
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "artistic","quirky", "vibrant", "extravagant"]
+    },
+    {
+      "title": "A Casio Vintage Watch",
+      "personality": ["bold", "simple"],
+      "category": 4,
+      "relationship_type": "practical",
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "simple", "practical"]
+    },
+    {
+      "title": "Funny Rings (Like Ones for Kids)",
+      "personality": ["quirky", "funny", "vibrant"],
+      "category": 1,
+      "relationship_type": ["low-key", "sentimental"],
+      "interest": "Fashion and Styling",
+      "keywords": ["quirky", "funny", "vibrant", "low-key"]
+    },
+    {
+      "title": "See-Through Top",
+      "personality": ["bold", "artistic"],
+      "category": 3,
+      "relationship_type": "extravagant",
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "artistic", "extravagant"]
+    },
+    {
+      "title": "Cortez Sneakers",
+      "personality": ["bold", "adventurous", "vibrant"],
+      "category": 5,
+      "relationship_type": "extravagant",
+      "interest": "Fashion and Styling",
+      "keywords": ["bold", "adventurous","vibrant", "extravagant"]
+    },
+    {
+      "title": "Nice PJs",
+      "personality": ["soft&feminine", "simple", "quirky", "vibrant"],
+      "category": 3,
+      "relationship_type": ["sentimental", "practical"],
+      "interest": "Fashion and Styling",
+      "keywords": ["soft&feminine","quirky", "vibrant", "simple", "sentimental"]
+    },
+    {
+      "title": "A Set of Rings",
+      "personality": ["quirky", "artistic"],
+      "category": 2,
+      "relationship_type": "sentimental",
+      "interest": "Fashion and Styling",
+      "keywords": ["quirky", "artistic", "sentimental"]
+    },
+    {
+      "title": "A Waist Chain",
+      "personality": ["soft&feminine", "artistic", "quirky"],
+      "category": 3,
+      "relationship_type": "sentimental",
+      "interest": "Fashion and Styling",
+      "keywords": ["soft&feminine", "artistic","quirky", "sentimental"]
+    },
+    {
+      "title": "A Necklace According to Her Zodiac Sign",
+      "personality": ["soft&feminine", "quirky"],
+      "category": 3,
+      "relationship_type": "sentimental",
+      "interest": "Fashion and Styling",
+      "keywords": ["soft&feminine", "quirky", "sentimental"]
+    },
+    {
+      "title": "A Baggy T-shirt of Her Favorite Artist",
+      "personality": ["quirky", "bold", "artistic"],
+      "category": 3,
+      "relationship_type": ["low-key", "sentimental"],
+      "interest": "Fashion and Styling",
+      "keywords": ["quirky", "bold", "low-key", "artistic"]
+    },
+    {
+      "title": "A Polka Dotted Halter Neck Top",
+      "personality": ["soft&feminine", "quirky"],
+      "category": 3,
+      "relationship_type": "sentimental",
+      "interest": "Fashion and Styling",
+      "keywords": ["soft&feminine", "quirky", "sentimental"]
+    },
+    {
+      "title": "A Pair of Funny Boxers",
+      "personality": ["quirky", "funny", "vibrant"],
+      "category": 2,
+      "relationship_type": ["low-key", "sentimental"],
+      "interest": "Fashion and Styling",
+      "keywords": ["quirky", "funny","vibrant", "low-key"]
+    },
+    {
+      "title": "Cupcakes Made by You in White Icing and Then Both of You Add Different Icing on the White",
+      "personality": ["quirky", "artistic", "vibrant", "soft&feminine"],
+      "category": 1,
+      "relationship_type": ["sentimental","low-key"],
+      "interest": "Art & DIY",
+      "keywords": ["quirky", "artistic", "vibrant","soft&feminine", "sentimental","low-key"]
+    },
+    {
+      "title": "Jam Heart Cookies",
+      "personality": ["soft&feminine", "artistic"],
+      "category": 2,
+      "relationship_type": ["sentimental","low-key"],
+      "interest": "Art & DIY",
+      "keywords": ["soft&feminine", "artistic", "sentimental"]
+    },
+    {
+      "title": "Heart Pizza Date Night",
+      "personality": ["quirky", "funny", "simple"],
+      "category": 3,
+      "relationship_type": ["low-key","practical"],
+      "interest": "Art & DIY",
+      "keywords": ["quirky", "funny", "low-key","practical","simple"]
+    },
+    {
+      "title": "DIY Scrapbook",
+      "personality": ["artistic", "quirky", "funny"],
+      "category": 1,
+      "relationship_type": "sentimental",
+      "interest": "Art & DIY",
+      "keywords": ["artistic", "quirky","funny", "sentimental"]
+    },
+    {
+      "title": "DIY Gift Box with Love Letters",
+      "personality": ["soft&feminine", "artistic", "simple"],
+      "category": 1,
+      "relationship_type": ["sentimental","low-key"],
+      "interest": "Art & DIY",
+      "keywords": ["soft&feminine", "artistic","simple", "sentimental","low-key"]
+    },
+    {
+      "title": "Personalized Toilet Paper Roll",
+      "personality": ["quirky", "funny", "simple", "vibrant"],
+      "category": 1,  
+      "relationship_type": ["low-key", "practical"],  
+      "interest": "Art & DIY",
+      "keywords": ["quirky", "funny", "simple", "vibrant", "low-key","practical"]
+    },
+    {
+      "title": "DIY Bucket List Jar",
+      "personality": ["quirky", "adventurous", "artistic", "bold"],
+      "category": 1,  
+      "relationship_type": ["sentimental", "extravagant"], 
+      "interest": "Art & DIY",
+      "keywords": ["quirky", "adventurous", "artistic","bold", "sentimental","extravagant"]
+    },
+    {
+      "title": "An emergency snack box",
+      "personality": ["quirky","vibrant", "funny"],
+      "category": 2,
+      "relationship_type": ["low-key","practical", "sentimental"],
+      "interest": "Art & DIY",
+      "keywords": ["quirky","vibrant", "funny", "low-key","practical", "sentimental"]
+    },
+    {
+      "title": "DIY Customized 2 Pairs of Socks, One for You and One for Her",
+      "personality": ["quirky", "artistic", "funny", "vibrant"],
+      "category": 3,
+      "relationship_type": ["sentimental"],
+      "interest": "Art & DIY",
+      "keywords": ["quirky", "artistic", "funny", "vibrant", "sentimental"]
+    },
+    {
+      "title": "Write a Song for her",
+      "personality": ["artistic","simple","bold" ],
+      "category": 1,
+      "relationship_type": ["sentimental","low-key"],
+      "interest": "Art & DIY",
+      "keywords": ["artistic","bold","simple", "sentimental","low-key" ]
+    },
+    {
+      "title": "A Meal Made by You",
+      "personality": ["simple", "soft&feminine"],
+      "category": 1,
+      "relationship_type": ["sentimental","low-key", "practical"],
+      "interest": "Art & DIY",
+      "keywords": ["simple", "soft&feminine", "sentimental","low-key","practical"]
+    },
+    {
+      "title": "DIY Side Table Frame with Beer Bottle Caps",
+      "personality": ["quirky", "artistic", "soft&feminine"],
+      "category": 3,
+      "relationship_type": ["sentimental","low-key"],
+      "interest": "Art & DIY",
+      "keywords": ["quirky", "artistic", "soft&feminine", "low-key", "sentimental"]
+    },
+    {
+      "title": "Favorite Shows Vibrant Quirky Poster Prints",
+      "personality": ["quirky", "artistic","vibrant"],
+      "category": 2,
+      "relationship_type": "sentimental",
+      "interest": "Art & DIY",
+      "keywords": ["quirky", "artistic", "vibrant","sentimental"]
+    },
+    {
+      "title": "A Huge Poster of Her Favorite Painting",
+      "personality": ["artistic", "soft&feminine", "bold"],
+      "category": 2,
+      "relationship_type": ["sentimental","extravagant"],
+      "interest": "Art & DIY",
+      "keywords": ["artistic", "soft&feminine","bold", "extravagant","sentimental"]
+    },
+    {
+      "title": "Mini Canvas Painting Picnic",
+      "personality": ["artistic", "quirky", "vibrant", "adventurous", "soft&feminine"],
+      "category": 2,
+      "relationship_type": ["sentimental","low-key"],
+      "interest": "Art & DIY",
+      "keywords": ["artistic","vibrant", "adventurous","soft&feminine", "quirky", "sentimental","low-key"]
+    },
+    {
+      "title": "A White T-shirt Painting Date",
+      "personality": ["quirky", "artistic", "vibrant"],
+      "category": 3,
+      "relationship_type": ["low-key", "sentimental"],
+      "interest": "Art & DIY",
+      "keywords": ["quirky", "artistic","vibrant", "low-key", "sentimental"]
+    },
+    {
+    "title": "A Trek close by",
+      "personality": ["bold","simple", "vibrant", "adventurous"],
+      "category": 5,
+      "relationship_type": ["extravagant", "sentimental"],
+      "interest": "Art & DIY",
+      "keywords": ["bold","simple", "vibrant", "adventurous", "low-key", "sentimental"]
+    },
+    {
+      "title": "A Checked Bed Sheet + Comforter",
+      "personality": ["simple", "soft&feminine", "quirky", "vibrant"],
+      "category": 4,
+      "relationship_type": ["practical"],
+      "interest": "Home Decor",
+      "keywords": ["simple", "soft&feminine", "quirky", "vibrant", "practical"]
+    },
+    {
+      "title": "Smoothie Bowl",
+      "personality": ["simple", "soft&feminine", "bold"],
+      "category": 2,
+      "relationship_type": ["sentimental", "practical"],
+      "interest": "Home Decor",
+      "keywords": ["simple", "soft&feminine", "bold", "sentimental", "practical"]
+    },
+    {
+      "title": "Pasta Plate",
+      "personality": ["simple", "soft&feminine", "bold"],
+      "category": 2,
+      "relationship_type": ["sentimental", "practical"],
+      "interest": "Home Decor",
+      "keywords": ["simple", "soft&feminine", "bold", "sentimental", "practical"]
+    },
+    {
+      "title": "A Coaster Teacup + Teapot Set",
+      "personality": ["simple", "soft&feminine", "artistic"],
+      "category": 3,
+      "relationship_type": ["sentimental", "practical", "low-key"],
+      "interest": "Home Decor",
+      "keywords": ["simple", "soft&feminine", "artistic", "sentimental", "practical", "low-key"]
+    },
+    {
+      "title": "A Quirky Doormat",
+      "personality": ["quirky", "vibrant", "funny"],
+      "category": 3,
+      "relationship_type": ["sentimental", "practical"],
+      "interest": "Home Decor",
+      "keywords": ["quirky", "vibrant", "funny", "sentimental", "practical"]
+    },
+    {
+      "title": "A Check Rug for Bedroom",
+      "personality": ["artistic", "vibrant", "soft&feminine", "quirky"],
+      "category": 4,
+      "relationship_type": ["sentimental", "practical", "low-key"],
+      "interest": "Home Decor",
+      "keywords": ["artistic", "vibrant", "soft&feminine", "quirky", "sentimental", "practical", "low-key"]
+    },
+    {
+      "title": "Indoor Plant Holders",
+      "personality": ["artistic", "bold", "simple"],
+      "category": 2,
+      "relationship_type": ["sentimental", "practical"],
+      "interest": "Home Decor",
+      "keywords": ["artistic", "bold", "simple", "sentimental", "practical"]
+    },
+    {
+      "title": "A Pair of Fishes + Small Pot Aquarium",
+      "personality": ["simple", "adventurous", "soft&feminine"],
+      "category": 2,
+      "relationship_type": ["sentimental"],
+      "interest": "Home Decor",
+      "keywords": ["simple", "adventurous", "soft&feminine", "sentimental"]
+    },
+    {
+      "title": "A Candle Stand",
+      "personality": ["simple", "artistic", "bold"],
+      "category": 2,
+      "relationship_type": ["sentimental", "low-key"],
+      "interest": "Home Decor",
+      "keywords": ["simple", "artistic", "bold", "sentimental", "low-key"]
+    },
+    {
+      "title": "A Mushroom Lamp",
+      "personality": ["quirky", "vibrant", "soft&feminine", "artistic"],
+      "category": 4,
+      "relationship_type": ["practical", "sentimental"],
+      "interest": "Home Decor",
+      "keywords": ["quirky", "vibrant", "soft&feminine", "artistic", "practical", "sentimental"]
+    },
+    {
+      "title": "A Disco Ball",
+      "personality": ["quirky", "funny", "bold"],
+      "category": 3,
+      "relationship_type": ["extravagant"],
+      "interest": "Home Decor",
+      "keywords": ["quirky", "funny", "bold", "extravagant"]
+    },
+    {
+      "title": "Quirky Funny Fridge Magnets",
+      "personality": ["quirky", "funny", "vibrant"],
+      "category": 2,
+      "relationship_type": ["sentimental"],
+      "interest": "Home Decor",
+      "keywords": ["quirky", "funny", "vibrant", "sentimental"]
+    },
+    {
+      "title": "A Night Lamp",
+      "personality": ["vibrant", "simple"],
+      "category": 1,
+      "relationship_type": ["practical", "low-key"],
+      "interest": "Home Decor",
+      "keywords": ["vibrant", "simple", "practical", "low-key"]
+    },
+    {
+      "title": "A Cute Toaster",
+      "personality": ["quirky", "vibrant", "artistic"],
+      "category": 1,
+      "relationship_type": ["sentimental", "low-key"],
+      "interest": "Home Decor",
+      "keywords": ["quirky", "vibrant", "artistic", "sentimental", "low-key"]
+    },
+    {
+      "title": "Clothes Stand",
+      "personality": ["simple", "artistic", "bold"],
+      "category": 3,
+      "relationship_type": ["practical", "low-key"],
+      "interest": "Home Decor",
+      "keywords": ["simple", "artistic", "bold", "practical", "low-key"]
+    },
+    {
+      "title": "A Small Side Table Stool",
+      "personality": ["simple"],
+      "category": 2,
+      "relationship_type": ["practical", "low-key", "sentimental"],
+      "interest": "Home Decor",
+      "keywords": ["simple", "practical", "low-key", "sentimental"]
+    },
+    {
+      "title": "A Set of Cushions",
+      "personality": ["soft&feminine", "vibrant", "artistic"],
+      "category": 3,
+      "relationship_type": ["sentimental", "low-key"],
+      "interest": "Home Decor",
+      "keywords": ["soft&feminine", "vibrant", "artistic", "sentimental", "low-key"]
+    },
+    {
+      "title": "A Set of Wall Hangings",
+      "personality": ["artistic", "vibrant", "soft&feminine"],
+      "category": 4,
+      "relationship_type": ["sentimental", "low-key"],
+      "interest": "Home Decor",
+      "keywords": ["artistic", "vibrant", "soft&feminine", "sentimental", "low-key"]
+    },
+    {
+      "title": "Bath robe",
+      "personality": ["simple", "vibrant", "soft&feminine", "bold", "funny"],
+      "category": 4,
+      "relationship_type": ["sentimental", "practical"],
+      "interest": "Self Care",
+      "keywords": ["simple", "vibrant", "soft&feminine", "bold","sentimental","funny", "practical" ]
+    },
+    {
+      "title": "Wellness journal",
+      "personality": ["simple", "soft&feminine", "bold", "artistic"],
+      "category": 2,
+      "relationship_type": ["sentimental", "practical"],
+      "interest": "Self Care",
+      "keywords": ["simple", "soft&feminine", "bold", "artistic","sentimental", "practical","low-key" ]
+    },
+    {
+      "title": "Stanley cup",
+      "personality": ["simple", "soft&feminine", "bold", "adventurous"],
+      "category": 5,
+      "relationship_type": ["practical", "extravagant"],
+      "interest": "Self Care",
+      "keywords": ["simple", "soft&feminine", "bold", "adventurous", "practical", "extravagant" ]
+    },
+    {
+      "title": "Candles and Room spray",
+      "personality": ["simple", "soft&feminine"],
+      "category": 1,
+      "relationship_type": ["low-key"],
+      "interest": "Self Care",
+      "keywords": ["simple", "soft&feminine", "low-key" ]
+    },
+    {
+      "title": "Gua Sha & Jade roller",
+      "personality": ["simple", "soft&feminine", "bold"],
+      "category": 1,
+      "relationship_type": ["practical", "low-key"],
+      "interest": "Self Care",
+      "keywords": ["simple", "soft&feminine", "bold", "practical", "low-key" ]
+    },
+    {
+      "title": "Exfoliating Scrub",
+      "personality": ["simple", "soft&feminine"],
+      "category": 1,
+      "relationship_type": ["low-key", "practical"],
+      "interest": "Self Care",
+      "keywords": ["simple", "soft&feminine", "low-key", "practical"]
+    },
+    {
+      "title": "Vintage Hand cream",
+      "personality": ["simple", "soft&feminine", "artistic"],
+      "category": 1,
+      "relationship_type": ["low-key", "sentimental"],
+      "interest": "Self Care",
+      "keywords": ["simple", "soft&feminine","artistic", "low-key", "sentimental"]
+    },
+    {
+      "title": "Gym clothing set",
+      "personality": ["simple", "bold", "adventurous"],
+      "category": 4,
+      "relationship_type": ["practical", "sentimental"],
+      "interest": "Self Care",
+      "keywords": ["simple", "bold", "adventurous", "low-key", "sentimental"]
+    },
+    {
+      "title": "Bath&BodyWorks kit",
+      "personality": ["simple", "bold", "soft&feminine", "vibrant"],
+      "category": 3,
+      "relationship_type": ["sentimental"],
+      "interest": "Self Care",
+      "keywords": ["simple", "bold", "soft&feminine", "vibrant", "sentimental"]
+    },
+    {
+      "title": "Rhode Lip Tint",
+      "personality": ["bold", "soft&feminine", "vibrant"],
+      "category": 4,
+      "relationship_type": ["extravagant"],
+      "interest": "Self Care",
+      "keywords": ["bold", "soft&feminine", "vibrant", "extravagant"]
+    },
+    {
+      "title": "Silk Pillow Case & Silk hair mask",
+      "personality": ["quirky", "soft&feminine", "vibrant", "bold"],
+      "category": 2,
+      "relationship_type": ["practical","low-key"],
+      "interest": "Self Care",
+      "keywords": ["quirky", "soft&feminine", "vibrant", "bold", "practical", "low-key"]
+    },
+    {
+      "title": "Crossword/Sudoku book",
+      "personality": ["funny", "bold", "simple"],
+      "category": 1,
+      "relationship_type": ["practical","low-key"],
+      "interest": "Self Care",
+      "keywords": ["funny", "bold", "simple", "practical", "low-key"]
+    },
+    {
+      "title": "Gym tote bag",
+      "personality": [ "bold", "simple","adventurous", "soft&feminine","vibrant"],
+      "category": 4,
+      "relationship_type": ["practical","sentimental"],
+      "interest": "Self Care",
+      "keywords": ["bold", "simple","adventurous", "soft&feminine","vibrant", "practical", "sentimental"]
+    },
+    {
+      "title": "IKEA Digital alarm clock",
+      "personality": ["funny", "simple", "adventurous","quirky"],
+      "category": 2,
+      "relationship_type": ["practical","low-key"],
+      "interest": "Self Care",
+      "keywords": ["funny", "simple", "adventurous","quirky", "practical", "low-key"]
+    },
+    {
+      "title": "Yogurt Combo & Dark chocolates",
+      "personality": ["funny", "simple","quirky","adventurous","bold","soft&feminine"],
+      "category": 1,
+      "relationship_type": ["practical","low-key","sentimental"],
+      "interest": "Self Care",
+      "keywords": ["funny", "simple","quirky","adventurous","bold","soft&feminine", "practical", "low-key", "sentimental"]
+    },
+    {
+      "title": "Laneige Lip Balm",
+      "personality": ["simple", "soft&feminine","vibrant"],
+      "category": 2,
+      "relationship_type": ["practical","sentimental"],
+      "interest": "Self Care",
+      "keywords": ["simple", "soft&feminine","vibrant", "practical", "sentimental"]
+    },
+    {
+      "title": "Good makeup brushes",
+      "personality": ["simple", "soft&feminine","vibrant", "bold"],
+      "category": 2,
+      "relationship_type": ["practical","sentimental", "low-key"],
+      "interest": "Self Care",
+      "keywords": ["simple", "soft&feminine","vibrant", "bold", "practical", "sentimental", "low-key"]
+    },
+    {
+      "title": "Good makeup brushes",
+      "personality": ["simple", "soft&feminine","vibrant", "bold"],
+      "category": 2,
+      "relationship_type": ["practical","sentimental", "low-key"],
+      "interest": "Self Care",
+      "keywords": ["simple", "soft&feminine","vibrant", "bold", "practical", "sentimental", "low-key"]
+    },
+    {
+      "title": "Drunk elephant skincare kit",
+      "personality": ["soft&feminine","vibrant", "bold"],
+      "category": 5,
+      "relationship_type": ["extravagant", "sentimental"],
+      "interest": "Self Care",
+      "keywords": ["soft&feminine","vibrant", "bold", "extravagant", "sentimental"]
+    },
+    {
+      "title": "The Face Shop X Khushi Kapoor Exclusive Kit(Korean skincare)",
+      "personality": ["soft&feminine","vibrant", "bold", "simple"],
+      "category": 3,
+      "relationship_type": ["extravagant", "sentimental", "practical","low-key"],
+      "interest": "Self Care",
+      "keywords": ["soft&feminine","vibrant", "bold", "simple", "extravagant", "sentimental", "practical", "low-key"]
+    },
+    {
+      "title": "Silk pajama set",
+      "personality": ["soft&feminine","vibrant", "bold","quirky"],
+      "category": 4,
+      "relationship_type": ["extravagant", "sentimental","practical"],
+      "interest": "Self Care",
+      "keywords": ["soft&feminine","vibrant", "bold","quirky","extravagant", "sentimental","practical"]
+    },
+    {
+      "title": "Hair Styling Kit (Blow Dry Brush",
+      "personality": ["soft&feminine", "bold","quirky","simple"],
+      "category": 3,
+      "relationship_type": [ "sentimental","practical"],
+      "interest": "Self Care",
+      "keywords": ["soft&feminine", "bold","quirky","simple", "sentimental","practical"]
+    },
+    {
+      "title": "Funny Facemasks",
+      "personality": ["soft&feminine", "funny","quirky","simple"],
+      "category": 1,
+      "relationship_type": [ "sentimental","low-key"],
+      "interest": "Self Care",
+      "keywords": ["soft&feminine", "funny","quirky","simple", "sentimental","low-key"]
+    },
+    {
+      "title": "Giant Plushie Body Pillow",
+      "personality": ["soft&feminine", "funny","quirky","vibrant"],
+      "category": 4,
+      "relationship_type": [ "sentimental","extravagant"],
+      "interest": "Self Care",
+      "keywords": ["soft&feminine", "funny","quirky","vibrant","sentimental","extravagant"]
+    }, 
+    {
+      "title": "Shower Wine Glass Holder",
+      "personality": ["soft&feminine", "funny","quirky", "simple"],
+      "category": 2,
+      "relationship_type": [ "sentimental","practical"],
+      "interest": "Self Care",
+      "keywords": ["soft&feminine", "funny","quirky", "simple","sentimental","practical"]
+    },  
+    {
+      "title": "DIY Pottery",
+      "personality": ["soft&feminine", "quirky", "artistic", "vibrant"],
+      "category": 3,
+      "relationship_type": [ "sentimental","low-key"],
+      "interest": "Self Care",
+      "keywords": ["soft&feminine", "quirky", "artistic", "vibrant","sentimental","low-key"]
+    }
+  ]
+  
