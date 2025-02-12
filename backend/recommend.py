@@ -7,7 +7,16 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
-CORS(app)  # ✅ Enable CORS for all routes
+# Enable CORS for specific origins
+CORS(app, resources={r"/*": {"origins": "https://lazygifting.netlify.app"}})
+
+# After request hook to handle CORS for preflight requests
+@app.after_request
+def after_request(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+    return response
 
 # Load the data from the JSON file
 DATA_FILE_PATH = os.path.join(os.path.dirname(__file__), "data.json")
