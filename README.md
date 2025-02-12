@@ -1,4 +1,4 @@
-# Valentine’s Day Gift Recommendation App - For the Perfect Valentine's Gift
+# LazyGifting - Valentine’s Day Gift Recommendation App for her
 
 Ah, Valentine’s Day. A time when flowers and chocolates might just *not* cut it anymore. We’ve all been there, standing in a store or scrolling online, utterly lost on what to get for that special someone. But don’t worry, we’ve got you covered. 
 
