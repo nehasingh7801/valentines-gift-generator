@@ -3,7 +3,7 @@ import Favicon from "react-favicon";
 import "./styles.css";
 
 function App() {
-    const heartFavicon = "/love.svg";
+    const heartFavicon = "/love.png";
     const linkedinLogo = "/social.png";
     const instagramLogo = "/instagram.png";
     const [step, setStep] = useState(0);
@@ -72,7 +72,7 @@ function App() {
             case 1:
                 return (
                     <div>
-                        <h2>$ Budget Category:</h2>
+                        <h2>Budget Category:</h2>
                         {["0-500", "500-1000", "1000-2000", "2000-5000", "5000+"].map((value, index) => (
                             <div key={index}>
                                 <input type="radio" name="category" value={index + 1} checked={category === (index + 1).toString()} onChange={(e) => setCategory(e.target.value)} />
@@ -176,7 +176,7 @@ function App() {
             </div>
             <footer className="footer">
                 <p className="footer-text">
-                    Made with love for love by Neha <span className="heart">❤️</span>
+                    Made with love for love by Neha<span className="heart">❤️</span>
                 </p>
                 <div className="social-icons">
                     <a href="https://www.linkedin.com/in/i-am-neha-singh/" target="_blank" rel="noopener noreferrer">

@@ -1,7 +1,7 @@
-/* Import Google Fonts */
+/* ✅ Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@1,400&family=Work+Sans:wght@400&display=swap');
 
-/* ✅ Global styles */
+/* ✅ Global Styles */
 body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
@@ -17,13 +17,13 @@ body {
 
 /* ✅ Universal Red Color */
 :root {
-  --primary-red: #ad0f0f; /* ✅ Dark Red from Navbar Text */
+  --primary-red: #ad0f0f; /* Dark Red */
 }
 
-/* ✅ Responsive Navbar */
+/* ✅ Navbar */
 .navbar {
   background-color: rgb(246, 229, 214);
-  padding: 10px 0;
+  padding: 8px 0;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -31,6 +31,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
+  margin-bottom: 0px;
 }
 
 .navbar h1 {
@@ -41,10 +42,11 @@ body {
   margin: 0;
 }
 
+/* ✅ Content */
 .content {
   text-align: center;
   background: rgb(246, 229, 214);
-  padding: 15px 20px;  /* Reduced padding to reduce space */
+  padding: 15px 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   width: 90%;
@@ -52,21 +54,33 @@ body {
   margin: auto;
 }
 
-/* ✅ Responsive Form */
+/* ✅ Form Styles */
 form {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-family: 'Work Sans', sans-serif;
   color: var(--primary-red);
+  text-align: left; /* Align text to the left */
 }
 
+/* ✅ Align radio buttons and labels in a row */
 label {
   margin-bottom: 5px;
   font-size: 1rem;
+  display: inline-block;
 }
 
-/* ✅ Radio Button Customization */
+input[type="radio"], label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap; /* Ensures wrapping when text is long */
+  max-width: 90%; /* Avoid text overflowing */
+  width: auto;
+}
+
+/* ✅ Keep radio button customization */
 input[type="radio"] {
   appearance: none;
   border: 2px solid var(--primary-red);
@@ -78,16 +92,9 @@ input[type="radio"] {
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-/* When radio button is selected */
 input[type="radio"]:checked {
   background-color: var(--primary-red);
   border-color: var(--primary-red);
-}
-
-/* ✅ Reduced Font Size for Form Items */
-input[type="radio"], select, button {
-  font-size: 0.9rem; /* Smaller font size for form elements */
-  padding: 8px; /* Adjust padding for smaller font size */
 }
 
 button {
@@ -95,12 +102,13 @@ button {
   color: var(--primary-red);
   border: 2px solid var(--primary-red);
   cursor: pointer;
-  font-size: 0.9rem; /* Smaller button font size */
+  font-size: 0.9rem;
   padding: 8px;
   border-radius: 5px;
   width: 100%;
   transition: background 0.3s ease, color 0.3s ease;
-  margin-top: 20px; /* ✅ Added gap between form options and button */
+  margin-top: 20px;
+  display: inline-block; /* Ensure button is inline */
 }
 
 button:hover {
@@ -108,7 +116,7 @@ button:hover {
   color: white;
 }
 
-/* ✅ Responsive Footer */
+/* ✅ Footer */
 .footer {
   background-color: var(--primary-red);
   color: white;
@@ -116,40 +124,31 @@ button:hover {
   text-align: center;
   font-size: 1rem;
   position: fixed;
-  margin-top: 1rem;
   bottom: 0;
   left: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column; /* Change flex direction for better alignment */
+  align-items: center; /* Center-align content */
+  justify-content: center; /* Ensure vertical alignment in all cases */
 }
 
-/* ✅ Center "Made with love for love" */
 .footer-text {
-  flex: 1;
+  font-size: 1.1rem;
   text-align: center;
-  font-size: 1.2rem;
+  margin: 0; /* Remove any default margin */
 }
 
-/* ✅ White Heart Icon */
-.footer .heart {
+.heart {
   font-size: 1rem;
   color: white;
   margin-left: 5px;
 }
 
-/* ✅ Social Media Icons (Now Right-Aligned with Margin) */
 .social-icons {
   display: flex;
   gap: 10px;
-  align-items: center;
-  margin-right: 35px;
-}
-
-.social-icons a {
-  display: flex;
-  align-items: center;
+  margin-top: 5px; /* Add spacing between text and icons */
 }
 
 .social-icons img {
@@ -157,35 +156,28 @@ button:hover {
   height: 25px;
 }
 
-/* ✅ Ensure Content Doesn't Hide Behind Navbar or Footer */
-.app {
-  padding-top: 70px;
-  padding-bottom: 90px;
-}
 
-.recommendation-container {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
 
+.recommendation-container,
 .gift-list {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .gift-box {
   background-color: white;
   border: 1.4px solid var(--primary-red);
   color: var(--primary-red);
-  padding: 8px;
-  margin: 8px 0;
+  padding: 4px;
+  margin-bottom: 4px;
+  margin-top: -2px; /* You can reduce this if the gap is too large */
   border-radius: 5px;
   font-size: 0.7rem;
   text-align: center;
   width: 100%;
   max-width: 300px;
   display: inline-block;
+
 }
 
 .gift-item {
@@ -200,14 +192,14 @@ button:hover {
   word-wrap: break-word;
   text-align: center;
 }
+
 .reset-button {
-  margin-top: 20px; /* Reduced top margin */
-  padding: 8px 12px; /* Reduced padding */
-  font-size: 10px;
+  background-color: var(--primary-red); /* Primary Red */
   color: #ffffff;
-  background-color: var(--primary-red);
   border: none;
-  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -216,9 +208,8 @@ button:hover {
     background-color: var(--primary-red);
 }
 
-/* ✅ Media Queries for Responsiveness */
 
-/* Large screens (tablets and up) */
+/* Large Screens */
 @media (max-width: 1024px) {
   .navbar h1 {
     font-size: 1.4rem;
@@ -231,21 +222,15 @@ button:hover {
 
   .footer {
     font-size: 0.9rem;
-    padding: 15px;
   }
 
   .social-icons img {
     width: 22px;
     height: 22px;
   }
-
-  .gift-item {
-    font-size: 1rem;
-    padding: 12px;
-  }
 }
 
-/* Medium screens (mobile devices) */
+/* Medium Screens */
 @media (max-width: 768px) {
   .navbar h1 {
     font-size: 1.3rem;
@@ -258,27 +243,18 @@ button:hover {
 
   .footer {
     font-size: 0.8rem;
-    padding: 10px;
   }
 
   .social-icons img {
     width: 20px;
     height: 20px;
   }
-
-  .gift-box {
-    font-size: 0.8rem;
-  }
-
-  .gift-item {
-    font-size: 1rem;
-  }
 }
 
-/* Small screens (smaller mobile devices) */
+/* Small Screens */
 @media (max-width: 480px) {
   .navbar h1 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .content {
@@ -288,38 +264,56 @@ button:hover {
 
   .footer {
     font-size: 0.7rem;
-    padding: 8px;
   }
 
   .social-icons img {
     width: 18px;
     height: 18px;
   }
-
-  .gift-box {
-    font-size: 0.7rem;
-  }
-
-  .gift-item {
-    font-size: 0.9rem;
-    padding: 8px;
-  }
 }
 
 /* ✅ Adjust Heading Sizes */
 h1, h2, h3 {
-  font-size: 1.17rem; /* Reduced font size for all headings */
+  font-size: 1.17rem;
 }
 
 h2 {
-  font-size: 1.1rem; /* Smaller font size for h2 */
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 h3 {
-  font-size: 1.0rem; /* Smaller font size for h3 */
+  font-size: 1rem;
 }
 
-/* ✅ Adjust font size for specific elements */
 .finding-gift-text {
-  font-size: 0.9rem; /* Larger font size for finding-gift-text */
+  font-size: 0.9rem;
+}
+/* Default padding for larger screens */
+.app {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Medium screens (e.g., tablets) */
+@media (max-width: 768px) {
+  .app {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* Small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+  .app {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
