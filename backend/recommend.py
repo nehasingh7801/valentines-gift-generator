@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # ✅ Import Flask-CORS
+from flask_cors import CORS
 import os
 import json
 import pandas as pd
@@ -10,7 +10,15 @@ app = Flask(__name__)
 # Enable CORS for specific origins
 CORS(app, resources={r"/*": {"origins": "https://lazygifting.netlify.app"}})
 
-# After request hook to handle CORS for preflight requests
+# Handle OPTIONS request for CORS preflight
+@app.route('/recommend', methods=['OPTIONS'])
+def options():
+    response = jsonify({})
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+    return response
+
 @app.after_request
 def after_request(response):
     response.headers['Access-Control-Allow-Origin'] = '*'
@@ -32,7 +40,6 @@ except Exception as e:
 # Function to generate keywords based on personality and relationship type
 def generate_keywords(personality, relationship_type):
     return personality + [relationship_type]
-
 
 # Function to recommend multiple gifts
 def recommend_gifts(user_interest, user_category, user_personality, user_relationship_type):
@@ -70,7 +77,6 @@ def recommend_gifts(user_interest, user_category, user_personality, user_relatio
 
     return recommended_gifts if recommended_gifts else ["No suitable gift found."]
 
-
 @app.route('/recommend', methods=['POST'])
 def recommend():
     try:
@@ -104,6 +110,4 @@ def recommend():
 
 if __name__ == '__main__':
     print("Starting Flask app...")
-    
-
     app.run(debug=True)
