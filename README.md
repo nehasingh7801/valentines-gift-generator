@@ -48,7 +48,7 @@ We’re not stopping here! Here’s what’s on the horizon:
 
 - **Personalized Filters**: Add options like relationship stage, favorite activities, or preferred type of experience to get even more tailored suggestions.
 - **Surprise Element**: Add a "surprise me" option that’ll recommend a completely unexpected, but perfect, gift idea.
-- **Gift Delivery Integration**: Why not go the extra mile and offer gift wrapping or delivery suggestions?
+- **Pinterest Links**: Why not go the extra mile and add the pinterest links/images for a better visualisation of the gifts.
 - **User Profiles**: Keep track of your past gifts to avoid repeating yourself year after year. 
 - **Love Letter Generator**: A heartfelt message to go with your gift? We’re working on it!
 
