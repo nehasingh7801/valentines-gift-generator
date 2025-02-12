@@ -7,17 +7,19 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
-# Enable CORS for specific origins
+
+# Enable CORS for all routes
 CORS(app, resources={r"/*": {"origins": "https://lazygifting.netlify.app"}})
 
-# Handle OPTIONS request for CORS preflight
-@app.route('/recommend', methods=['OPTIONS'])
-def options():
-    response = jsonify({})
-    response.headers['Access-Control-Allow-Origin'] = '*'
-    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
-    response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
-    return response
+# Handle OPTIONS request globally
+@app.before_request
+def handle_options_request():
+    if request.method == 'OPTIONS':
+        response = jsonify({})
+        response.headers['Access-Control-Allow-Origin'] = '*'
+        response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+        response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+        return response
 
 @app.after_request
 def after_request(response):
