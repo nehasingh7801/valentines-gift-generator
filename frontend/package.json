@@ -11,11 +11,11 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-  "start": "npx react-scripts start",
-  "build": "npx react-scripts build",
-  "test": "npx react-scripts test",
-  "eject": "react-scripts eject"
-},
+    "start": "npx react-scripts start",
+    "build": "npx react-scripts build",
+    "test": "npx react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -35,5 +35,8 @@
     ]
   },
   "proxy": "http://127.0.0.1:5000",
-  "homepage": "."
+  "homepage": ".",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.3"
+  }
 }
