@@ -29,7 +29,7 @@ function App() {
             try {
                 console.log("Submitting request to backend...");
 
-                const response = await fetch("https://valentines-gift-generator.onrender.com", {
+                const response = await fetch("https://valentines-gift-generator.onrender.com/recommend", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
