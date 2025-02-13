@@ -23,7 +23,7 @@ body {
 /* ✅ Navbar */
 .navbar {
   background-color: rgb(246, 229, 214);
-  padding: 8px 0;
+  padding: 10px 0;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -316,4 +316,34 @@ h3 {
     padding-left: 5px;
     padding-right: 5px;
   }
+}
+/* ✅ Checkbox Styles */
+input[type="checkbox"] {
+  appearance: none;
+  border: 2px solid var(--primary-red);
+  border-radius: 4px; /* Square shape */
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--primary-red);
+  border-color: var(--primary-red);
+}
+
+input[type="checkbox"]::before {
+  content: '✔';
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked::before {
+  visibility: visible;
 }

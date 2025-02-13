@@ -9,16 +9,16 @@ function App() {
     const [step, setStep] = useState(0);
     const [category, setCategory] = useState("");
     const [interest, setInterest] = useState("");
-    const [personality, setPersonality] = useState("");
-    const [relationshipType, setRelationshipType] = useState("");
+    const [personality, setPersonality] = useState([]);
+    const [relationshipType, setRelationshipType] = useState([]);
     const [recommendation, setRecommendation] = useState([]);
     const [warning, setWarning] = useState("");
 
     const handleNextStep = async () => {
         if ((step === 1 && !category) ||
             (step === 2 && !interest) ||
-            (step === 3 && !personality) ||
-            (step === 4 && !relationshipType)) {
+            (step === 3 && personality.length === 0) ||
+            (step === 4 && relationshipType.length === 0)) {
             setWarning("Please choose one!");
             return;
         }
@@ -84,7 +84,7 @@ function App() {
             case 2:
                 return (
                     <div>
-                        <h2> What interests her?</h2>
+                        <h2>What interests her?</h2>
                         {[
                             { label: "Books", value: "Books" },
                             { label: "Music", value: "Music" },
@@ -113,11 +113,17 @@ function App() {
                         {["Quirky", "Simple", "Bold", "Artistic", "Adventurous", "Soft & Feminine", "Vibrant", "Funny"].map((value, index) => (
                             <div key={index}>
                                 <input
-                                    type="radio"
+                                    type="checkbox"
                                     name="personality"
                                     value={value}
-                                    checked={personality === value}
-                                    onChange={(e) => setPersonality(e.target.value)}
+                                    checked={personality.includes(value)}
+                                    onChange={(e) => {
+                                        if (e.target.checked) {
+                                            setPersonality([...personality, value]);
+                                        } else {
+                                            setPersonality(personality.filter((p) => p !== value));
+                                        }
+                                    }}
                                 />
                                 <label>{value}</label>
                             </div>
@@ -131,31 +137,37 @@ function App() {
                         {["Sentimental (Loves personalized gifts)", "Practical (Loves useful gifts)", "Low-key (Doesn’t like extravagant gifts)", "Extravagant (Loves big surprises, expensive gifts)"].map((value, index) => (
                             <div key={index}>
                                 <input
-                                    type="radio"
+                                    type="checkbox"
                                     name="relationshipType"
                                     value={value}
-                                    checked={relationshipType === value}
-                                    onChange={(e) => setRelationshipType(e.target.value)}
+                                    checked={relationshipType.includes(value)}
+                                    onChange={(e) => {
+                                        if (e.target.checked) {
+                                            setRelationshipType([...relationshipType, value]);
+                                        } else {
+                                            setRelationshipType(relationshipType.filter((r) => r !== value));
+                                        }
+                                    }}
                                 />
                                 <label>{value}</label>
                             </div>
                         ))}
                     </div>
                 );
-                case 5:
-                    return (
-                        <div className="recommendation-container">
-                            <h2>Your Recommended Gifts:</h2>
-                            <div className="gift-list">
-                                {recommendation.map((gift, index) => (
-                                    <div key={index} className="gift-box">{gift}</div>
-                                ))}
-                            </div>
-                            <button classname="reset-button" type="button" onClick={() => setStep(0)}>Start Over</button>
+            case 5:
+                return (
+                    <div className="recommendation-container">
+                        <h2>Your Recommended Gifts:</h2>
+                        <div className="gift-list">
+                            {recommendation.map((gift, index) => (
+                                <div key={index} className="gift-box">{gift}</div>
+                            ))}
                         </div>
-                    );
-                default:
-                    return null;
+                        <button className="reset-button" type="button" onClick={() => setStep(0)}>Start Over</button>
+                    </div>
+                );
+            default:
+                return null;
         }
     };
 
